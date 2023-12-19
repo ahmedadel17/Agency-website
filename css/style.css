@@ -1,0 +1,658 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.822);
+}
+
+.white {
+  color: white;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+i {
+  margin: 15px;
+}
+
+span {
+  font-size: 23px;
+  margin: 15px;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+.border-white {
+  border: 1px solid white;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.float-left {
+  float: left;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.right-200 {
+  right: 200px;
+}
+
+.top-20 {
+  top: 20px;
+}
+
+.f-size-23 {
+  font-size: 23px;
+}
+
+.m-10 {
+  margin: 10px 10px;
+}
+
+.mt-20 {
+  margin: 20px 0px 0px;
+}
+
+.my-20 {
+  margin: 20px 0px;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.w-100vw {
+  width: 100vw;
+}
+
+.background-image {
+  background-image: url("../images/faizur-rehman-pHPzdEHN6Os-unsplash.jpg");
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.overlay {
+  background-color: #000000c5;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.center {
+  margin: 0 auto 20px;
+}
+
+.my-400px {
+  margin-top: 400px;
+  margin-bottom: 400px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gray {
+  color: grey;
+}
+
+.width-600px {
+  width: 600px;
+}
+
+.f-size-70 {
+  font-size: 70px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+hr {
+  width: 100px;
+  height: 5px;
+}
+
+.blue {
+  color: #03045e;
+  background-color: #0077B6;
+
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.top-20-center {
+  margin: 20px auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.f-size-30 {
+  font-size: 30px;
+}
+
+.f-size-40 {
+  font-size: 40px;
+}
+
+.icons-color {
+  color: #0077B6;
+}
+
+.p-10 {
+  padding: 40px;
+}
+
+.mx-10 {
+  margin: 0px 10px
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+}
+
+.f-size-20 {
+  font-size: 20px;
+}
+
+.btn-primary {
+  background-color: #0077B6;
+  color: white;
+}
+
+.my-20 {
+  margin: 20px 0px;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-radius {
+  border-radius: 5px;
+
+}
+
+.border-blue {
+  border: 1px solid #0077B6;
+}
+
+.card {
+  position: relative;
+
+
+}
+
+.card::after {
+  position: absolute;
+  background-color: black;
+  content: "";
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 0%;
+  visibility: hidden;
+  opacity: 0.5;
+
+}
+
+.card:hover::after {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  opacity: 0.5;
+  transition: 1s;
+  opacity: 0;
+
+}
+
+.card:hover {
+  background-color: black;
+  color: white;
+  transition: 2s;
+}
+
+.fw-card {
+  width: 450px;
+  height: 450px;
+  margin: 10px;
+}
+
+.w-400 {
+  width: 450px;
+  height: 450px;
+}
+
+.wh-100 {
+  width: 100%;
+  height: 100%;
+
+}
+
+.top-0 {
+  top: 0;
+}
+
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.452);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.mt-100 {
+  margin: 150px 0px 0px 0px;
+
+}
+
+.contact-layer {
+  opacity: 0;
+}
+
+.contact-layer:hover {
+  opacity: 1;
+  transition: 2s;
+}
+
+.wwe-card {
+  width: 500px;
+  height: 200px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+
+}
+
+.wwe-card::After {
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  background-color: rgba(0, 0, 0, 0.098);
+  top: 0px;
+  left: 0px;
+  content: "";
+
+
+}
+
+.wwe-card:hover::after {
+  width: 100%;
+  height: 100%;
+  transition: 1.5s;
+}
+
+
+
+
+.wwe-card:hover h2 {
+  color: white;
+  transition: 0.5s;
+
+}
+
+.wwe-card:hover {
+  background-color: black;
+  transition: 3s;
+}
+
+/* .wwe-card:hover::after {
+  background-color: rgba(0, 0, 0, 0);
+} */
+
+.width-80 {
+  width: 80%;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+.fsize-30 {
+  font-size: 30px;
+}
+
+.line-height {
+  line-height: 1.5;
+}
+
+.px-70 {
+  padding: 0px 70px;
+}
+
+.nav-link {
+  position: relative;
+  padding: 5px;
+}
+
+.nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 10%;
+  background-color: #0077B6;
+  /* border: 1px solid white; */
+  content: "";
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  transition: 2s;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.custom-list {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-list li {
+  background: url('../images/list.svg') no-repeat left center;
+  /* Replace 'your-image-path.jpg' with the path to your image */
+  background-size: 30px;
+  /* Set the width of the image */
+  padding-left: 40px;
+  /* Adjust the padding to make room for the image */
+  margin-bottom: 10px;
+  /* Optional: Add some margin between list items */
+}
+
+.background-image1 {
+  background-image: url("../images/featuredwork/image01.png");
+  background-size: cover;
+}
+
+.background-image2 {
+  background-image: url("../images/featuredwork/image02.png");
+  background-size: cover;
+}
+
+.background-image3 {
+  background-image: url("../images/featuredwork/image08.png");
+  background-size: cover;
+}
+
+.background-image4 {
+  background-image: url("../images/featuredwork/image04.png");
+  background-size: cover;
+}
+
+.background-image5 {
+  background-image: url("../images/featuredwork/image05.png");
+  background-size: cover;
+}
+
+.background-image6 {
+  background-image: url("../images/featuredwork/image06.png");
+  background-size: cover;
+}
+
+.ml-20 {
+  margin-left: 280px;
+}
+
+.ml-10 {
+  margin-left: 200px;
+}
+
+.h-400px {
+  height: 300px;
+}
+
+.achievement {
+  background-image: url('../images/achievements.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.achievement-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.633);
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.mt-110 {
+  margin-top: 110px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 10px auto;
+  border: 1px solid #0077b6;
+}
+
+.mt-50 {
+  margin: 40px 0px 0px;
+}
+
+.subscribe-btn {
+  width: 120px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #0077B6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.p-top-20 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.ml-10px {
+  margin-left: 10px;
+}
+
+.ml-20px {
+  margin-left: 20px;
+}
+
+.pricing-card {
+  position: relative;
+}
+
+.pricing-card::after {
+  width: 100%;
+  height: 0%;
+  background-color: rgba(0, 0, 0, 0.294);
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+
+}
+
+.pricing-card:hover::after {
+  height: 100%;
+  transition: 0.5s;
+}
+
+.pricing-card:hover .text-color {
+  color: red;
+}
+
+.team-role {
+  background-image: url('../images/team-role.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.h-700 {
+  height: 700px;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.person-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+
+}
+
+.vertical-al-top {
+  vertical-align: top;
+}
+
+.ml-50px {
+  margin-left: 50px;
+}
+
+.card-img {
+  width: 100%;
+  height: 300px;
+}
+
+
+.team-card {
+  width: 430px;
+  border: 1px solid black;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.card-img-overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.459);
+  height: 100%;
+  visibility: hidden;
+}
+
+.team-card:hover .card-img-overlay {
+  visibility: visible;
+}
+
+.display-block {
+  display: block;
+}
+
+.icons-right {
+  position: absolute;
+  right: 0px;
+}
+
+.team-card::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.322);
+  height: 0%;
+  content: "";
+
+}
+
+.team-card:hover:after {
+  height: 100%;
+  transition: 1s;
+}
+
+.f-size-15 {
+  font-size: 15px;
+}
+
+.h-200px {
+  height: 200px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer-icons {
+  width: 50px;
+  height: 50px;
+  background-color: #0077B6;
+  border-radius: 50%;
+  text-align: center;
+
+}
+
+.footer-icons:hover {
+  background-color: #3f8fba;
+}
+
+.ml-500 {
+  margin-left: 500px;
+
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
